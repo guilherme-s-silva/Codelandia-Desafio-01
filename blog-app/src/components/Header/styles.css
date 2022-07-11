@@ -1,0 +1,54 @@
+/* html {
+    font-size: 62.5%;
+} */
+
+body {
+    --white-color: #FFF
+}
+
+.container-header {
+    width: auto;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+}
+
+.title-header {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
+    margin-bottom: 73px; 
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 24px;
+    color: var(--white-color);
+}
+
+.input-header {
+    width: 70%;
+    height: 65px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.input-header input {
+    all: unset;
+    width: auto;
+    margin-left: 20px;
+    color: var(--white-color);
+
+    font-family: 'Inter', sans-serif;
+    font-size:18px;
+    font-weight: 500;
+}
+
+.input-header input::placeholder {
+    color: var(--white-color);
+    opacity: 50%;
+}
+

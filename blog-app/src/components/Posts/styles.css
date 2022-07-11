@@ -1,0 +1,30 @@
+.container-post {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    padding: 25px;
+    background-color:#FFFFFF;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    border-radius: 5px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 50px;
+}
+
+.date-post {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #717171;
+}
+
+.title-post {
+    font-weight: 400;
+    color: #1A202C;
+    margin-bottom: 6px;
+}
+
+.content-post {
+    font-size: 18px;
+    color: #717171;
+}
